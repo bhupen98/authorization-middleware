@@ -1,7 +1,7 @@
 # middleware
 As name suggests middleware comes in middle of something and that is request and response cycle.
 On the other word, it's just a function which gets executed on the incoming request.<br>
-_It should look like as below,_
+_Authorization middleware should look like as below,_
 
 ``` javascript
 const jwt = require('jsonwebtoken');
